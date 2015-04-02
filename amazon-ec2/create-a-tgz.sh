@@ -1,1 +1,1 @@
-tar -C ../ --exclude .svn --exclude ./lib -czvf a.tgz a
+tar -C ../ --exclude .svn --exclude=a/lib --exclude=a/u -czvf a.tgz a
